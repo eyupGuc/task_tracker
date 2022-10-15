@@ -1,11 +1,13 @@
 
-import './App.css';
+import "./App.css";
+import Header from "./components/header/Header";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello React</h1>
-    </div>
+    <><Container className="text-center mt-4 bg-success w-50">
+    <Header />
+  </Container></>
   );
 }
 
